@@ -1,0 +1,13 @@
+# 1 - Liste des commandes Linux apprisent du 08/02/2021 au 11/02/2021 :
+
+ls : est la commande qui répértori l'ensemble des listes des fichiers sur le répertiore
+ls -l : est la commande qiu permet d'avoir une liste détaillé sur ce même repertoire
+cd : est  la commande de déplacement dans les fichiers ( suivi du nom du fichier voulu elle nous mettra dessus)
+pwd : est la commande qui permet d'accéder sur le répertoire courant (sur le répertoire de l'utlisateur du pc)
+cd .. : est la commande qui permet de revenir au répertoire/fichier précédant 
+mkdir : est la commande qui permet de créer un nouveau répertoire si elle est précédé du nom du dossier voulu
+
+# 2 - Expliquer en quoi la commande 'sudo' est spéciale
+
+sudo : est une commande qui permet à exécuter en mode superutilisateur (administrateur) des commandes ou des applications en console,
+ou de donner les droits de commandes à un ou plusieurs autres personnes.
