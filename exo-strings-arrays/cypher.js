@@ -3,7 +3,7 @@ let decryptxt = ''
 let d = 0
 for (d = 1; d < 26; d++) {
   decryptxt = ''
-  console.log(`Voici le message codé en Caesar décalé par ${d} :`)
+  console.log(`\nVoici le message codé en Caesar décalé par ${d} :\n`)
 
   for (i = 0; i < txt.length; i++) {
 
