@@ -21,7 +21,7 @@ for (d = 1; d < 26; d++) {
         // Cette boucle défini la séquence de comptage par rapport aux chiffres ASCII
       } else {
         decryptxt += decryptltr
-        // Dans cette variable j'integre mon texte codé
+        // Dans cette variable j'incrémente mon texte codé
       }
     } else {
       decryptxt += ' '
