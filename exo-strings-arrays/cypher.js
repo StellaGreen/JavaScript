@@ -12,7 +12,8 @@ for (d = 1; d < 26; d++) {
     // Dans cette boucle je demande d'indexer (de compter) le texte de ma première variable
     let cdltr = txt[i].charCodeAt()
     let decryptltr = String.fromCharCode(cdltr + d)
-    // Dans ces variable je déclare mon texte à mettre sous ASCII, et ma future réponse à l'inverse plus mon indice de comptage
+    /* Dans ces variable je déclare mon texte à mettre sous ASCII, 
+    puis je déclare ma future réponse renverse le code ASCII en lettre plus l'indice de décalage */
     if (txt[i] !== ' ') {
 
       if ((cdltr + d) > 90) {
