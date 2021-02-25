@@ -25,7 +25,7 @@ let nbE = 0
 let nbI = 0
 let nbO = 0
 let nbU = 0
-let nbY = 0//['a','à','e','é','è','ê','i','o','u','û','y','o']
+let nbY = 0
 for (let i = 0; i < text.length; ++i) {
 switch (text[i]){
     case 'e' || 'é' || 'è' || 'ê':
