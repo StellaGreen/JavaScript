@@ -31,7 +31,7 @@ switch (text[i]){
     case 'e' : 
     case 'é' :
     case 'è' :
-    case 'ê':
+    case 'ê' :
     nbE++
     break
     case 'a' :
