@@ -1,14 +1,10 @@
 let tab = ['a', 'b', 'c', 'd', 'e']
-
+let o =0
 do{
-   tab.includes('a','b','c','d','e')
-} while (tab.length < 6 ) {
-    for (let i = 0; i < tab.length; ++i) {
-          console.log(tab[i])
-       
-    }
-     break  
-}
+   console.log(tab[o])
+   o++
+} while (o < 5 ) 
+      
 
 /*let result = ''
 let i = 0
