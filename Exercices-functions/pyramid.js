@@ -10,11 +10,15 @@ une string (un caractère) qui sera le motif à afficher contrairement
 
 const pyramid = (nbBase, reverse) => {
     if (!reverse) {
+//si la pyramide n'est pas renversé
       for (let i = 1; i <= nbBase; ++i) {
         console.log('O'.repeat(i))
+//fais la de plus en plus grande
       }
     } else {
+//si non
       for (let i = nbBase; i >= 1; --i) {
+//fais la de plus en plus petite
         console.log('O'.repeat(i))
       }
     }

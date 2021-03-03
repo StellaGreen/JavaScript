@@ -7,6 +7,7 @@ avec un intervale de step
 
  const count = (min, max, step) =>{
     for(let i = min; max > i; i += step){
+//on compte de min a max par pat de step
     console.log(i)
      }
  }
