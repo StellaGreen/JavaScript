@@ -5,7 +5,7 @@ L'opérateur % peut vous aider à trouver si un nombre est multiple d'un autre.
 */
 
 for(let i = 0; i<= 1000; ++i){
-    if((i % 3 === 0) && (i % 7 === 0)){
+    if(!(i % 3 === 0) && !(i % 7 === 0)){
     continue
     }
     console.log(i)
