@@ -3,4 +3,4 @@ let o =0
 do{
    console.log(tab[o])
    o++
-} while (o < 5 ) 
+} while (o < tab.length ) 
