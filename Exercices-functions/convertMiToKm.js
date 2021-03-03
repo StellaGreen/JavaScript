@@ -1,6 +1,4 @@
-const convertMiToKm = (miles, km)=>{
-    let convert 
-    convert = miles / km
-    return convert    
+const convertMiToKm = (miles)=>{
+    return miles / 1.06934  
 }
-console.log
+console.log(convertMiToKm(2))
