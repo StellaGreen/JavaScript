@@ -1,4 +1,4 @@
-const countWheels = (nb_monocycle, nb_moto, nb_voiture, nb_limousine)=>{
+const countWheels = (nb_monocycle, nb_moto, nb_voiture, nb_limousines)=>{
     return nb_monocycle + nb_moto * 2 + nb_voiture * 4 + nb_limousines * 6
 // j'annonce le nombre de roues existant sur chaque elements
 }
