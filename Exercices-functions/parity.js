@@ -7,10 +7,11 @@ const isOdd = (num)=>{
     let resultat
     resultat = 'false'
     return num %2 === 0 
-
+//je demande que si le nombre est impair la réponses sois "false"
 }
 const isEven = (num)=>{
     resultat = 'true'
     return !isOdd(num)
+//je demande que si le nombre est pair la réponse est "true"
 }
 console.log(isOdd(3))
