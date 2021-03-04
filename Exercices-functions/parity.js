@@ -3,15 +3,21 @@ Ecrire une fonction isOdd qui prend un nombre en paramètre et qui devra retourn
 true si le nombre passé en paramètre est impair, sinon la fonction retournera false.
 */
 
-const isOdd = (num)=>{
-    let resultat
-    resultat = 'false'
-    return num %2 === 0 
-//je demande que si le nombre est impair la réponses sois "false"
+const isOdd = (nb)=>{
+    if(nb %2 === 0){
+        return 'false'
+    } else {
+        return 'true'
+    }
+//si le nombre est impair ça return 'false' si non 'true"
 }
-const isEven = (num)=>{
-    resultat = 'true'
-    return !isOdd(num)
-//je demande que si le nombre est pair la réponse est "true"
+const listNb = [1, 2, 3, 4, 5, 6]
+
+for(nb of listNb){
+    if(isOdd(nb)){
+        console.log(`${nb} est impair`)
+    } else{
+        console.log(`${nb} est pair`)
+    }
 }
-console.log(isOdd(3))
+//on demande que si le chiffre est pair cela nous le dise, et s'il est impair aussi
