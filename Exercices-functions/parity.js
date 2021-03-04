@@ -4,20 +4,14 @@ true si le nombre passé en paramètre est impair, sinon la fonction retournera 
 */
 
 const isOdd = (nb)=>{
-    if(nb %2 === 0){
-        return 'false'
-    } else {
-        return 'true'
-    }
-//si le nombre est impair ça return 'false' si non 'true"
+    return nb % 2 !== 0
 }
-const listNb = [1, 2, 3, 4, 5, 6]
 
-for(nb of listNb){
-    if(isOdd(nb)){
-        console.log(`${nb} est impair`)
-    } else{
-        console.log(`${nb} est pair`)
-    }
+const isEven = (nb) => {
+  return !isOdd(nb)
 }
-//on demande que si le chiffre est pair cela nous le dise, et s'il est impair aussi
+
+console.log(isOdd(1))
+console.log(isOdd(10)) 
+console.log(isEven(1)) 
+console.log(isEven(10)) 
