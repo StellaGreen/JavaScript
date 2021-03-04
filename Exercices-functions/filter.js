@@ -1,5 +1,6 @@
-const filter = (choice)=>{
-    return choice.sort((a, b) => a - b)
-}
-//je lui demande de filtrer les chiffres du tableau dans l'ordre croissant
-console.log(filter([11, 34, 67, 3, 6, 23, 18]))
+
+  const Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter((elem) => {
+    return elem % 2 !== 0
+  })
+  //j'ai utilisé la méthode apprise en cours car elle permet de filtrer comme souhaité dans l'énoncé
+  console.log(Array) // output: [ 1, 3, 5 , 7, 9]
